@@ -1,9 +1,9 @@
 function game(){
     var number1 = Math.floor(Math.random()*6)+1;
-    var source1 = "/images/"+"dice"+number1+".png";
+    var source1 = "images/"+"dice"+number1+".png";
 
     var number2 = Math.floor(Math.random()*6)+1;
-    var source2 = "/images/"+"dice"+number2+".png";
+    var source2 = "images/"+"dice"+number2+".png";
 
     document.querySelectorAll("img")[0].setAttribute("src",source1);
     document.querySelectorAll("img")[1].setAttribute("src",source2);
