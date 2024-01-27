@@ -1,0 +1,62 @@
+@font-face {
+  font-family:pixel ;
+  src: url(resources/Pixelify_Sans/Pixer\ Regular\ 400.otf) format("opentype");
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.button{
+  color: #4ECCA3;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-family: 'pixel';
+  border-radius: 40px;
+  border-color: #4ECCA3;
+  transition-duration: 0.4s;
+  background-color: #191c22;
+}
+.button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+body {
+  background-color: #191c22;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'pixel';
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'pixel', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #2eeaff;
+  text-align: center;
+  font-size: bold;
+  font-family: 'pixel', cursive;
+
+}
