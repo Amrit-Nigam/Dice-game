@@ -1,3 +1,3 @@
 # Dice-game
 
-https://vanquser.github.io/Dice-game/dicee.html
+https://amrit-nigam.github.io/Dice-game/dicee.html
